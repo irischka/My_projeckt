@@ -1,0 +1,55 @@
+
+ 
+ body{
+  background-color: #D2D3D5;
+  
+   background-image: url("img/index/logo-body2.jpg")no-repeat center; 
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+    
+
+   
+ 
+ 
+ 
+ article {
+  background: white;
+  color: black;
+  text-align: center;
+  padding: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+ }
+  
+  
+ 
+ 
+ footer {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+ }
+#nav a  {
+    background-color:#E0EEEE;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left:180px;
+    margin-top: 25px;
+    font-size: 20px;
+    color: black;
+    margin-right:20px;
+    text-decoration: none;
+    padding: 4px;
+    border: 2px solid black;
+    vertical-align: -25px;
+   
+   
+}  
+  
+ 
+
+ 
