@@ -1,0 +1,6 @@
+body {
+    background-image: url("img/body1.jpg");
+    height: auto;
+    max-width: 5000px;
+    min-width: 300px;
+}
