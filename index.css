@@ -1,6 +1,9 @@
-body {
-    background-image: url("img/body1.jpg");
-    height: auto;
-    max-width: 5000px;
-    min-width: 300px;
+ 
+   body {
+    background: 
+     url(img/index/body1.jpg) no-repeat;
+     background-position: 25% 50%;
+     background-color:#D2D3D5;
+     
+    
 }
