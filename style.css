@@ -6,7 +6,7 @@ body {
 
 body {
  margin: 0 auto;
- background-color: #D2D3D5;
+ background-image: radial-gradient(#fff,#D2D3D5)
 }
 
 * {
@@ -42,13 +42,17 @@ body {
  transform: translate(-50%);
 
 }
+#nav img {
+ height: 70px;
+ padding-right: 5px;
+}
 
 .social {
  width: 100%;
  margin: 0 auto;
  height: 70px;
  position: relative;
-
+ 
 }
 
 .social nav {
@@ -59,24 +63,23 @@ body {
  font-family: candara;
  text-align: center;
  width: 100%;
- 
+
 }
 
 .social a {
  text-decoration: none;
+ background-image: radial-gradient(#fff,#D2D3D5);
  color: #000;
  margin: 0 10px;
  padding: 5px 20px;
  border-radius: 10px;
  border: 2px solid #000;
  font-size: 18px;
-}
-
-#nav img {
- height: 70px;
- padding-right: 15px;
+ 
  
 }
+
+
 
 .main {
  background: white;
@@ -103,6 +106,7 @@ body {
 
 .main img { 
  border: 2px solid #000;
+ 
   }
 
 
