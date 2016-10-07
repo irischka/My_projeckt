@@ -108,6 +108,7 @@ body {
  border: 2px solid #000;
  
   }
+   
 
 
 footer {
@@ -115,4 +116,21 @@ footer {
  font-size: 18px;
  text-align: center;
  font-family: candara;
+}
+ @media screen and (min-width:400px) and (max-width:700px)  {
+ .social a {font-size:300%;}
+}
+
+#toTop {
+ position:fixed;
+ z-index:9999;
+ bottom:10px;
+ right:10px;
+ background: #F4FFBF;
+ border: 1px solid #ccc;
+ padding: 5px;
+ cursor: pointer;
+ color: #666;
+ text-decoration: none;
+ width:100px;
 }
