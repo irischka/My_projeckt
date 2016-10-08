@@ -117,20 +117,23 @@ footer {
  text-align: center;
  font-family: candara;
 }
+ 
+ #scrollup {
+position: fixed; /* фиксированная позиция */
+opacity: 0.8; /* прозрачность */
+padding: 15px 10px 10px; /* отступы */
+background: #aaa;
+border-radius: 5px; /* скругление углов */
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+left: 10px; /* отступ слева */
+bottom: 10px; /* отступ снизу */
+display: block; /* спрятать блок */
+cursor: pointer;
+
+}
  @media screen and (min-width:400px) and (max-width:700px)  {
- .social a {font-size:300%;}
+ .social a {font-size;}
 }
 
-#toTop {
- position:fixed;
- z-index:9999;
- bottom:10px;
- right:10px;
- background: #F4FFBF;
- border: 1px solid #ccc;
- padding: 5px;
- cursor: pointer;
- color: #666;
- text-decoration: none;
- width:100px;
-}
+
