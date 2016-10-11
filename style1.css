@@ -79,6 +79,7 @@ body {
 main {
  width: 100%;
  
+ 
 }
 
 
@@ -94,8 +95,10 @@ main {
 }
 
 .content p {
- padding: 20px;
+ padding: 10px 60px 10px 60px;
  line-height: 23px;
+
+ 
 }
 
 .content h4 {
@@ -108,9 +111,9 @@ main {
 
 .content img {
  border: 2px solid #000;
- 
- 
- 
+}
+.p top{
+ position: fixed;
 }
  
    
@@ -120,7 +123,95 @@ footer {
  margin-top: 20px;
  font-size: 18px;
  text-align: center;
- 
 }
 
+
+  @media screen and (max-width: 768px){
+   .page-header figure img {
+    
   
+   margin:5px auto;
+   height:auto;
+   float:none;
+   display:block;
+}
+   
+    
+.social {
+    height: 210px;
+}
+
+.social nav {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.social a {
+    width: 80%;
+    text-align: center;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.content {
+    width: 95%;
+    margin-top: 20px;
+}
+   
+
+
+.content p {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 10px 30px 10px 30px;
+}
+
+.content h4 {
+    font-size: 12px;
+    line-height: 15px;
+    
+    padding: 15px 0px 5px 5px;
+}
+
+.content h3 {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 20px 10px 10px 10px;
+}
+.content img{
+    max-width:90%;
+    float: none;
+    margin: 5px auto;
+    height: auto;
+    
+}
+
+h6 {
+    font-size: 8px;
+}
+
+.social nav {
+    margin: 10px;
+    margin-bottom: 10px;
+}}
+
+
+
+ @media screen and (min-width: 769px) and (max-width:900px){
+  .content img{
+    max-width:90%;
+    float: none;
+    margin: 5px auto;
+    height: auto;
+ }
+ }
+
+  #nav {
+
+
+   
+   
+    
+    
+}
