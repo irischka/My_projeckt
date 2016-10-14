@@ -6,11 +6,12 @@ $(function () {
             method: "POST",
             data: {
                 message: $('#name').val(),
-                text: $('#text').val()
-            },
+                text: $('#text').val(),
+                email:$('#e-mail').val(),
+                },
             dataType: "json"
         }).done(function() {
-            $('form').html('<h1>Thank you!</h1>')
+            $('form').html('<h3>Дякуємо Вам!</h3>')
         }).fail(function(xhr, err) {
             $('form').html(xhr.statusText);
         });        
