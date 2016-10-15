@@ -215,9 +215,14 @@ footer {
  font-size: 10px;
  text-align: center;
 }
-
+form {
+ margin: 0 auto;
+ margin-top: 30px;
+ border: double 3px #D2D3D5;
+ width: inherit;
+ padding-top: inherit;
 }
-
+}
 @media screen and (min-width: 769px) and (max-width:900px) {
  .content img {
   max-width: 90%;
