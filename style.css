@@ -117,42 +117,47 @@ main {
 .p top {
  position: fixed;
 }
-form{
+
+form {
  margin-top: 80px;
  margin-bottom: 50px;
 }
-label { 
-cursor: default; 
-} 
-input[type="text"], 
-textarea[name="comments"] { 
-border: 1px solid black; 
-height: 38px; 
-width: 60%; 
-background:radial-gradient(#fff, #D2D3D5); 
-padding: 0 15px; 
-color: black; 
-outline: none; 
-margin: 8px 0 0; 
-font-family:candara; 
-} 
-textarea[name="comments"] { 
-height: 150px; 
-padding: 15px; 
-resize: none; 
-border: 1px solid black; 
-width: 60%; 
-} 
-button { 
-height: 55px;
-width: 160px; 
-background:radial-gradient(#fff, #D2D3D5); 
-color:  #000; 
-font-family:candara; 
-font-weight: bold; 
-border: 1px solid black; 
-float: inherit; 
-margin: 16px 0 0;
+
+label {
+ cursor: default;
+}
+
+input[type="text"],
+textarea[name="comments"] {
+ border: 1px solid black;
+ height: 38px;
+ width: 60%;
+ background: radial-gradient(#fff, #D2D3D5);
+ padding: 0 15px;
+ color: black;
+ outline: none;
+ margin: 8px 0 0;
+ font-family: candara;
+}
+
+textarea[name="comments"] {
+ height: 150px;
+ padding: 15px;
+ resize: none;
+ border: 1px solid black;
+ width: 60%;
+}
+
+button {
+ height: 55px;
+ width: 160px;
+ background: radial-gradient(#fff, #D2D3D5);
+ color: #000;
+ font-family: candara;
+ font-weight: bold;
+ border: 1px solid black;
+ float: inherit;
+ margin: 16px 0 0;
 }
 
 footer {
@@ -176,16 +181,16 @@ footer {
   display: block;
  }
  .page-header {
-    width: 95%;
-    height: 200px;
-    position: relative;
-    background: url(img/index/logo-body2.jpg) repeat 100% 40%;
-    background-size: 67%;
-    margin: 0 auto;
-}
-#nav{
- display: none;
-}
+  width: 95%;
+  height: 200px;
+  position: relative;
+  background: url(img/index/logo-body2.jpg) repeat 100% 40%;
+  background-size: 67%;
+  margin: 0 auto;
+ }
+ #nav {
+  display: none;
+ }
  #nav2 {
   display: block;
   margin: 0 auto;
@@ -242,63 +247,64 @@ footer {
   padding-bottom: 35px;
   text-align: center;
   height: 300px;
-  display: none;
  }
- 
- }
- 
- form {
-    margin-top: 40px;
-    margin-bottom: 30px;
 }
 
-label { 
-cursor: default; 
-} 
-input[type="text"], 
-textarea[name="comments"] { 
-border: 1px solid black; 
-height: 38px; 
-width: 60%; 
-background:radial-gradient(#fff, #D2D3D5); 
-padding: 0 15px; 
-color: black; 
-outline: none; 
-margin: 8px 0 0; 
-font-family:candara; 
-} 
-textarea[name="comments"] { 
-height: 150px; 
-padding: 15px; 
-resize: none; 
-border: 1px solid black; 
-width: 60%; 
-} 
-button { 
-height: 55px;
-width: 160px; 
-background:radial-gradient(#fff, #D2D3D5); 
-color:  #000; 
-font-family:candara; 
-font-weight: bold; 
-border: 1px solid black; 
-float: inherit; 
-margin: 16px 0 0;
-}
- footer {
-  margin-top: 20px;
-  font-size: 10px;
-  text-align: center;
- }
- 
- 
+form {
+ margin-top: 40px;
+ margin-bottom: 30px;
 }
 
+label {
+ cursor: default;
+}
+
+input[type="text"],
+textarea[name="comments"] {
+ border: 1px solid black;
+ height: 38px;
+ width: 60%;
+ background: radial-gradient(#fff, #D2D3D5);
+ padding: 0 15px;
+ color: black;
+ outline: none;
+ margin: 8px 0 0;
+ font-family: candara;
+}
+
+textarea[name="comments"] {
+ height: 150px;
+ padding: 15px;
+ resize: none;
+ border: 1px solid black;
+ width: 60%;
+}
+
+button {
+ height: 55px;
+ width: 160px;
+ background: radial-gradient(#fff, #D2D3D5);
+ color: #000;
+ font-family: candara;
+ font-weight: bold;
+ border: 1px solid black;
+ float: inherit;
+ margin: 16px 0 0;
+}
+
+footer {
+ margin-top: 20px;
+ font-size: 10px;
+ text-align: center;
+}
+
+
+}
 @media screen and (min-width: 769px) and (max-width:900px) {
  .content img {
   max-width: 90%;
   float: none;
   margin: 5px auto;
   height: auto;
- 
-}}
+ }
+}
