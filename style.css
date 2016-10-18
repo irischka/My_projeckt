@@ -118,11 +118,38 @@ main {
  position: fixed;
 }
 
-form {
- margin: 0 auto;
- margin-top: 30px;
- border: double 3px #D2D3D5;
- width: 350px;
+label { 
+cursor: default; 
+} 
+input[type="text"], 
+textarea[name="comments"] { 
+border: 1px solid black; 
+height: 38px; 
+width: 60%; 
+background:radial-gradient(#fff, #D2D3D5); 
+padding: 0 15px; 
+color: black; 
+outline: none; 
+margin: 8px 0 0; 
+font-family:candara; 
+} 
+textarea[name="comments"] { 
+height: 150px; 
+padding: 15px; 
+resize: none; 
+border: 1px solid black; 
+width: 60%; 
+} 
+button { 
+height: 55px;
+width: 160px; 
+background:radial-gradient(#fff, #D2D3D5); 
+color:  #000; 
+font-family:candara; 
+font-weight: bold; 
+border: 1px solid black; 
+float: inherit; 
+margin: 16px 0 0;
 }
 
 footer {
@@ -144,9 +171,9 @@ footer {
   float: none;
   display: block;
  }
- #nav {
-  display: none;
- }
+#nav{
+ display: none;
+}
  #nav2 {
   display: block;
   margin: 0 auto;
@@ -154,8 +181,7 @@ footer {
   text-align: center;
  }
  #nav2 img {
-  width: 40%;
-  height: 40%;
+  width: 55px;
  }
  .social {
   height: 210px;
@@ -208,25 +234,46 @@ footer {
   width: 50%;
   margin: 0 auto;
  }
+
+label { 
+cursor: default; 
+} 
+input[type="text"], 
+textarea[name="comments"] { 
+border: 1px solid black; 
+height: 38px; 
+width: 60%; 
+background:radial-gradient(#fff, #D2D3D5); 
+padding: 0 15px; 
+color: black; 
+outline: none; 
+margin: 8px 0 0; 
+font-family:candara; 
+} 
+textarea[name="comments"] { 
+height: 150px; 
+padding: 15px; 
+resize: none; 
+border: 1px solid black; 
+width: 60%; 
+} 
+button { 
+height: 55px;
+width: 160px; 
+background:radial-gradient(#fff, #D2D3D5); 
+color:  #000; 
+font-family:candara; 
+font-weight: bold; 
+border: 1px solid black; 
+float: inherit; 
+margin: 16px 0 0;
+}
  footer {
   margin-top: 20px;
   font-size: 10px;
   text-align: center;
  }
- form {
-  margin-top: 30px;
-  border: double 3px #D2D3D5;
-  width: 80%;
-  padding: 5px 5px;
-  margin-bottom: 5px;
-  
-  width: 95%;
-  box-sizing: border-box;
-  
- }
- .social{
-  display: none;
- }
+ 
  
 }
 
@@ -237,4 +284,7 @@ footer {
   margin: 5px auto;
   height: auto;
  }
-}
+ #nav2 img {
+  width: 30%;
+  height: 30%;
+}}
