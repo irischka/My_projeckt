@@ -117,7 +117,10 @@ main {
 .p top {
  position: fixed;
 }
-
+form{
+ margin-top: 80px;
+ margin-bottom: 50px;
+}
 label { 
 cursor: default; 
 } 
@@ -166,11 +169,21 @@ footer {
 
 @media screen and (max-width: 768px) {
  .page-header figure img {
+  background: url("img/index/logo-body2.jpg") repeat 100% 30%;
   margin: 5px auto;
-  height: auto;
+  height: 175px;
+  width: 175px;
   float: none;
   display: block;
  }
+ .page-header {
+    width: 95%;
+    height: 200px;
+    position: relative;
+    background: url(img/index/logo-body2.jpg) repeat 100% 40%;
+    background-size: 67%;
+    margin: 0 auto;
+}
 #nav{
  display: none;
 }
@@ -234,6 +247,10 @@ footer {
   width: 50%;
   margin: 0 auto;
  }
+ form {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
 
 label { 
 cursor: default; 
@@ -283,8 +300,5 @@ margin: 16px 0 0;
   float: none;
   margin: 5px auto;
   height: auto;
- }
- #nav2 img {
-  width: 30%;
-  height: 30%;
+ 
 }}
