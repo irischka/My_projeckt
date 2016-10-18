@@ -18,3 +18,24 @@ $(function () {
     })
 });
 
+$(document).ready(function(){
+
+    $(function (){
+		$(".p up").hide();
+
+		$(window).scroll(function (){
+			if ($(this).scrollTop() > 700){
+				$(".p up").fadeIn();
+			} else{
+				$(".p up").fadeOut();
+			}
+		});
+
+		$(".p up a").click(function (){
+			$("body,html").animate({
+				scrollTop:0
+			}, 800);
+			return false;
+		});
+	});
+});
