@@ -170,7 +170,9 @@ footer {
 .carousel-inner>.item>a>img {
  width: 70%;
  margin: 0 auto;
+ 
 }
+
 
 @media screen and (max-width: 768px) {
  .page-header figure img {
@@ -247,6 +249,12 @@ footer {
   padding-bottom: 35px;
   text-align: center;
   height: 300px;
+ }
+ .carousel-caption {
+  display:none;
+ }
+ .carousel-indicators{
+  display: none;
  }
 }
 
